@@ -12,10 +12,10 @@ const NavbarMain = () => {
             <div className='navbar-right'>
                 <ul className='navbar-right-content'>
                     <li className='navbar-right-text'>
-                        <h5 className=''><Link to={"/dashboard"}> Dashboard</Link></h5>
+                        <h5 className=''><Link to={"/Portfolio/dashboard"}> Dashboard</Link></h5>
                     </li>
                     <li className='navbar-right-text'>
-                        <h5 className=''> <Link to={"/MyJourney"}> My Journey</Link></h5>
+                        <h5 className=''> <Link to={"/Portfolio/MyJourney"}> My Journey</Link></h5>
                     </li>
                     <li className='navbar-right-text'>
                         <h5 className=''><a href=""> Contact</a></h5>

@@ -12,10 +12,10 @@ function App() {
   return (
     <Routes>
       <Route path="/Portfolio" element={<DashboardMain />} />
-      <Route path="/" element={<DashboardMain />} />
-      <Route path="/dashboard" element={<DashboardMain />} />
-      <Route path="/MyJourney" element={<MyJourney />} />
-      <Route path="*" element={<Navigate to="/dashboard" />} />
+      <Route path="/Portfolio/" element={<DashboardMain />} />
+      <Route path="/Portfolio/dashboard" element={<DashboardMain />} />
+      <Route path="/Portfolio/MyJourney" element={<MyJourney />} />
+      <Route path="*" element={<Navigate to="/Portfolio/dashboard" />} />
 
     </Routes>
   )
