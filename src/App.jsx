@@ -11,6 +11,7 @@ function App() {
 
   return (
     <Routes>
+      <Route path="/Portfolio" element={<DashboardMain />} />
       <Route path="/" element={<DashboardMain />} />
       <Route path="/dashboard" element={<DashboardMain />} />
       <Route path="/MyJourney" element={<MyJourney />} />
