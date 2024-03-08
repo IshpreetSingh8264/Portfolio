@@ -1,0 +1,160 @@
+.navbar-main {
+  /* background-color: #13589d; */
+  padding: 0;
+  height: 75px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  /* Distribute elements evenly */
+  align-items: center;
+  position: sticky;
+  top: 0;
+  /* Stick to the top */
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.75);
+  /* 75% opacity black */
+  animation: navbarAnimation 1.5s forwards;
+}
+
+@keyframes navbarAnimation {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* ul.navbar-right-content .navbar-right-text h5 a.active,
+ul.navbar-right-content .navbar-right-text h5 a.active:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 3px;
+} */
+
+.active {
+  color: #46cbff !important;
+  /* Change text color for active link */
+  border-bottom: 2px solid #46cbff;
+  /* Add underline for active link */
+  padding-bottom: 3px;
+  /* Adjust padding to align underline with text */
+}
+
+.navbar-left {
+  /* float: left; is not needed with flexbox */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 50%;
+  /* Initial full width */
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .navbar-left {
+    width: 25%;
+    /* Adjust width for smaller screens */
+  }
+
+}
+
+
+.navbar-left-text {
+  text-align: center;
+  color: #CCCCCC;
+  font-weight: bold;
+  text-decoration: none;
+  overflow: hidden;
+  display: block;
+  line-height: 1.5;
+  /* Adjust line-height for better visibility */
+  height: 100%;
+}
+
+.navbar-right {
+  /* float: right; is not needed with flexbox */
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  color: #CCCCCC;
+  display: flex;
+  flex-direction: column;
+  /* Align items vertically */
+}
+
+.navbar-right ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* Flex-wrap not needed as menu will be hidden */
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-right li {
+  margin: 0;
+  padding: 0 10px;
+  /* Adjust padding based on content */
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #CCCCCC;
+}
+
+.navbar-right li h5 a {
+  position: relative;
+  color: #CCCCCC;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.navbar-right li a:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #0094ce;
+  transform-origin: left;
+  animation: underline 0.3s forwards;
+}
+
+@keyframes underline {
+  0% {
+    transform: scaleX(0);
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1000px) {
+  .navbar-left {
+    width: 100%;
+    /* Adjust width for smaller screens */
+    font-size: large;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-right {
+    /* Hide the entire navbar-right element on smaller screens */
+    display: none;
+  }
+}

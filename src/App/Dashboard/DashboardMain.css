@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.scroll-animation {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .scroll-animation.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+.dashboard-main {
+    height: auto;
+    width: 100%;
+}
+
+/* DASHBOARD MAIN CONTENT CSS STARTS */
+
+.dashboard-main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: #ffdddd; */
+    height: 1000px;
+    width: 100%;
+    color: white;
+    font-family: 'Calibri';
+    margin-top: 75px;
+}
+
+.dashboard-about-main {
+    border: 2px solid #46cbff;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 55%;
+    background: #000;
+    padding: 15px;
+}
+
+.dashboard-about-heading {
+    font-family: Serif;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    float: right;
+    width: 100%;
+    height: 12%;
+
+    font-size: 25px;
+    align-self: flex-start;
+    /* Added property */
+}
+
+.dashboard-about-heading h2 {
+    display: inline;
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Optional: Add border radius for rounded corners */
+    color: #FFD700; /* Text color */
+    font-size: 50px;
+}
+
+.about-text {
+    font-family: 'Calibri';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    width: auto;
+    height: 88%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5;
+
+    text-align: justify;
+    text-justify: inter-word;
+}
+.about-text h3{
+    font-size: 35px;
+}
+.about-text p{
+    font-size: 20px;
+}
+
+
+
+
+/* DASHBOARD MAIN CONTENT CSS ENDS */
+
+
+
+/* DASHBOARD TOP CSS STARTS */
+.dashboard-top {
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dashboard-top-left {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+
+
+.my-pic-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.dashboard-top-right {
+    width: 50%;
+    float: right;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-1 {
+    display: flex;
+    height: auto;
+    margin-bottom: 20px;
+    /* Add some spacing between content-1 and content-2 */
+}
+
+.content-2 {
+    display: flex;
+    height: auto;
+}
+
+/* Keep the rest of your existing CSS as it is */
+
+.dashboard-top-right-h1 {
+    width: 100%;
+    border-radius: 55px;
+    opacity: 0;
+    /* Initial opacity for animation */
+    animation: fadeIn 1.5s forwards;
+    /* Animation with fill mode to keep the final state */
+    font-family: 'Calibri';
+    margin-bottom: 10px;
+    /* Adjust the margin to your preference */
+    color: #46cbff;
+}
+
+.dashboard-top-right-h2 {
+    width: 100%;
+    font-family: 'Calisto MT';
+
+    border-radius: 55px;
+    opacity: 0;
+    /* Initial opacity for animation */
+    animation: fadeIn 1.5s forwards;
+    /* Animation with fill mode to keep the final state */
+}
+
+
+.my-pic {
+    width: 75%;
+    border-radius: 55px;
+    opacity: 0;
+    /* Initial opacity for animation */
+    animation: fadeIn 1.5s forwards;
+    /* Animation with fill mode to keep the final state */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .dashboard-top {
+        flex-direction: column;
+        height: auto;
+        margin-top: 75px;
+    }
+
+    .my-pic {
+        width: 50%;
+
+    }
+
+    .dashboard-about-main {
+        width: 90%;
+    }
+
+    .dashboard-top-left,
+    .dashboard-top-right {
+        width: 100%;
+        float: none;
+    }
+}
+
+/* DASHBOARD TOP CSS ENDS */
