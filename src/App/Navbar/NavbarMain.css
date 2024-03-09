@@ -26,12 +26,12 @@
   }
 }
 
-/* ul.navbar-right-content .navbar-right-text h5 a.active,
+ul.navbar-right-content .navbar-right-text h5 a.active,
 ul.navbar-right-content .navbar-right-text h5 a.active:hover {
   color: #ffffff;
   border-bottom: 2px solid #ffffff;
   padding-bottom: 3px;
-} */
+}
 
 .active {
   color: #46cbff !important;

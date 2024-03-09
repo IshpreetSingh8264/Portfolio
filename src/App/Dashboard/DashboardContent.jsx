@@ -43,7 +43,7 @@ const DashboardContent = () => {
           <p>
             With experience as a junior full stack web developer at
             Cognito Blocks, I'm passionate about transforming ideas into
-            user-friendly and engaging web experiences. ️
+            user-friendly and engaging web experiences. 
           </p>
           <br></br>
           <p>
