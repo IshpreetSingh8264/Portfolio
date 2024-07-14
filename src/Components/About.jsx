@@ -6,7 +6,7 @@ export default function About() {
                        align-center bg-gray-800 text-gray-300 max-w-5xl mx-auto">
             <div className="flex-1">
                 <img
-                    src="assets/WorkingTogether.png"
+                    src="WorkingTogether.png"
                     alt="About"
                     className="w-full h-full bg-cover"
                 />

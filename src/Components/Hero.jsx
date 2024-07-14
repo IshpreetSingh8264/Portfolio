@@ -21,7 +21,7 @@ Ishpreet Singh                    </h2>
             </div>
             <div className="flex-1">
                 <img src=
-                    "assets/IshpreetSingh.jpg"
+                    "IshpreetSingh.jpg"
                     alt="Ishpreet Singh"
                     className="w-full h-full bg-cover" />
             </div>
