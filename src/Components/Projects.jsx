@@ -4,92 +4,92 @@ export default function Projects() {
             name: "Hulu Clone",
             description: "A landing page clone of Hulu.com.",
             link: "https://ishpreetsingh8264.github.io/HuluClone/",
-            imageSrc: "/Projects/hulu.png"
+            imageSrc: "assets/Projects/hulu.png"
         },
         {
             name: "FreeKaaMaal Landing page",
             description: "A landing page clone of freekaamaal.",
             link: "https://ishpreetsingh8264.github.io/Project1/",
-            imageSrc: "/Projects/freekaamaal.png"
+            imageSrc: "assets/Projects/freekaamaal.png"
         },
       
         {
             name: "Funcorp",
             description: "A landing page clone of funcorp.in",
             link: "https://ishpreetsingh8264.github.io/First-react/",
-            imageSrc: "/Projects/funcorp.png"
+            imageSrc: "assets/Projects/funcorp.png"
         },
         {
             name: "eTreeks React Design",
             description: "A React design of the etreeks langing page.",
             link: "https://ishpreetsingh8264.github.io/demo5/",
-            imageSrc: "/Projects/etreeks.png"
+            imageSrc: "assets/Projects/etreeks.png"
         },
         {
             name: "Responsive React Layout",
             description: "A React design of a responsive layout.",
             link: "https://ishpreetsingh8264.github.io/design1/",
-            imageSrc: "/Projects/design1.png"
+            imageSrc: "assets/Projects/design1.png"
         },
         {
             name: "Movie Listing",
             description: "A web application for listing movies.",
             link: "https://ishpreetsingh8264.github.io/MovieListing",
-            imageSrc: "/Projects/Movie Listing.png"
+            imageSrc: "assets/Projects/Movie Listing.png"
         },
         {
             name: "Sticky Notes",
             description: "An application for creating and managing sticky notes.",
             link: "https://ishpreetsingh8264.github.io/StickyNotes",
-            imageSrc: "/Projects/Sticky notes.png"
+            imageSrc: "assets/Projects/Sticky notes.png"
         },
         {
             name: "Calculator",
             description: "A simple calculator web application.",
             link: "https://ishpreetsingh8264.github.io/Calculator",
-            imageSrc: "/Projects/Calculator.png"
+            imageSrc: "assets/Projects/Calculator.png"
         },
         {
             name: "Password Generator",
             description: "Generate strong passwords with various options.",
             link: "https://ishpreetsingh8264.github.io/PasswordGenerator/",
-            imageSrc: "/Projects/password generator.png"
+            imageSrc: "assets/Projects/password generator.png"
         },
         {
             name: "Crack the Code",
             description: "A game where you crack the secret code.",
             link: "https://ishpreetsingh8264.github.io/Crackthecode/",
-            imageSrc: "/Projects/Crack The code.png"
+            imageSrc: "assets/Projects/Crack The code.png"
         },
         {
             name: "QR Code Generator",
             description: "Generate QR codes for URLs, text, and more.",
             link: "https://ishpreetsingh8264.github.io/QRCodeGenerator/",
-            imageSrc: "/Projects/Qr.png"
+            imageSrc: "assets/Projects/Qr.png"
         },
         {
             name: "Drawing Application",
             description: "Create digital drawings and sketches.",
             link: "https://ishpreetsingh8264.github.io/DrawingApplication/",
-            imageSrc: "/Projects/Drawing.png"
+            imageSrc: "assets/Projects/Drawing.png"
         },
         {
             name: "Button Ripple Effect",
             description: "Add interactive ripple effects to buttons.",
             link: "https://ishpreetsingh8264.github.io/ButtonRippleEffect/",
-            imageSrc: "/Projects/RippleEffect.png"
+            imageSrc: "assets/Projects/RippleEffect.png"
         },
         {
             name: "Breathing Exercise",
             description: "Guide for breathing exercises to relax and destress.",
             link: "https://ishpreetsingh8264.github.io/BreathingExercise/",
-            imageSrc: "/Projects/breathing.png"
+            imageSrc: "assets/Projects/breathing.png"
         },
         {
             name: "Hangman",
             description: "Classic word guessing game with hangman theme.",
             link: "https://ishpreetsingh8264.github.io/Hangman/",
-            imageSrc: "/Projects/hangman.png"
+            imageSrc: "assets/Projects/hangman.png"
         }
     ];
 
