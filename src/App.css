@@ -1,0 +1,36 @@
+/* app.css */
+
+/* Apply dark theme to the entire application */
+:root {
+    --bg-color: #1a202c;
+    /* Dark blue-gray background */
+    --text-color: #cbd5e0;
+    /* Light gray text */
+    --accent-color: #38b2ac;
+    /* Turquoise accent */
+    --hover-bg-color: #2c7a7b;
+    /* Darker turquoise for hover states */
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    /* Ensure to include a font-family that suits your design */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--hover-bg-color);
+}
+html {
+    scroll-behavior: smooth;
+}
+/* Additional global styles can go here */
