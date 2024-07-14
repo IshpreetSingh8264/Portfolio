@@ -1,0 +1,1 @@
+:root{--bg-color: #1a202c;--text-color: #cbd5e0;--accent-color: #38b2ac;--hover-bg-color: #2c7a7b}body{background-color:var(--bg-color);color:var(--text-color);font-family:Inter,sans-serif;margin:0;padding:0}a{color:var(--accent-color);text-decoration:none;transition:color .3s}a:hover{color:var(--hover-bg-color)}html{scroll-behavior:smooth}
