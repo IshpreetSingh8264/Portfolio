@@ -35,13 +35,13 @@ export default function Projects() {
             name: "Movie Listing",
             description: "A web application for listing movies.",
             link: "https://ishpreetsingh8264.github.io/MovieListing",
-            imageSrc: "Projects/Movie Listing.png"
+            imageSrc: "Projects/MovieListing.png"
         },
         {
             name: "Sticky Notes",
             description: "An application for creating and managing sticky notes.",
             link: "https://ishpreetsingh8264.github.io/StickyNotes",
-            imageSrc: "Projects/Sticky notes.png"
+            imageSrc: "Projects/Stickynotes.png"
         },
         {
             name: "Calculator",
@@ -53,13 +53,13 @@ export default function Projects() {
             name: "Password Generator",
             description: "Generate strong passwords with various options.",
             link: "https://ishpreetsingh8264.github.io/PasswordGenerator/",
-            imageSrc: "Projects/password generator.png"
+            imageSrc: "Projects/passwordgenerator.png"
         },
         {
             name: "Crack the Code",
             description: "A game where you crack the secret code.",
             link: "https://ishpreetsingh8264.github.io/Crackthecode/",
-            imageSrc: "Projects/Crack The code.png"
+            imageSrc: "Projects/CrackThecode.png"
         },
         {
             name: "QR Code Generator",
